@@ -1,0 +1,12 @@
+﻿@inherits TdComponentBase
+
+@if (IsVisible)
+{
+    <hr />
+    <p>ChildContent below:</p>
+    @ChildContent
+    <hr />
+    <p>RenderContent(Typo) Below:</p>
+    @RenderContent(Typo)
+    <hr />
+}
